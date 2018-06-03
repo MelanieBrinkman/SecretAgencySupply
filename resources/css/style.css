@@ -117,3 +117,26 @@ li {
   padding: 0.5rem;
   text-align: center;
 }
+
+/* Shop info section*/
+
+.shop-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.info {
+  width: 35%;
+}
+
+.title {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+
+.subtitle {
+  line-height: 1.5;
+}
