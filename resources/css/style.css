@@ -140,3 +140,10 @@ li {
 .subtitle {
   line-height: 1.5;
 }
+
+footer {
+  background-color: black;
+  margin-top: 4rem;
+  color: white;
+  padding: 5rem 0;
+}
