@@ -74,15 +74,27 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0.75rem;
 }
 
 li {
   color: white;
-  margin: 0.75rem;
 }
 
 .menu {
   display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  ul {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    text-align: center;
+  }
+
 }
 
 /* Product section*/
@@ -96,6 +108,17 @@ li {
 .product {
   width: 30%;
 }
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+}
+
 
 .product-image {
   display: flex;
